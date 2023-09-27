@@ -7,13 +7,13 @@ import Contact from "./Components/Contact";
 
 function App() {
   return (
-    <Main>
+    <main className="text-gray-400 bg-gray-900 body-font">
       <Navbar />
       <About />
       <Projects />
       <Skills />
       <Contact />
-    </Main>
+    </main>
   );
 }
 
