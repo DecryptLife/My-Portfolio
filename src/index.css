@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 main {
-  display: flex;
-  flex-direction: column;
+  color: #9ca3af;
+  background-color: #111827;
 }
 
 .section-container {
@@ -16,12 +16,13 @@ main {
 
 /*  header components */
 .navbar {
-  background-color: rgb(31 41 55);
-  width: 100%;
-  display: flex;
-  position: sticky;
+  top: 0;
   z-index: 10;
-  justify-content: center;
+  display: flex;
+  background-color: #1f2937;
+  @media (min-width: 768px) {
+    position: sticky;
+  }
 }
 .nav_sections {
   display: flex;
@@ -50,16 +51,86 @@ main {
 
 .container {
   display: flex;
-  padding: 16px;
+  padding: 1.25rem;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   /* mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center */
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
 }
 
 .header_name {
-  font-size: x-large;
-  color: white;
+  font-weight: 500;
+  color: #ffffff;
+
+  @media (min-width: 640px) {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+.nav_links {
+  margin-right: 1.25rem;
+}
+
+.nav_links:hover {
+  color: #ffffff;
 }
 
 /*  about section */
+
+.about-text-container {
+  display: flex;
+  margin-bottom: 4rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    padding-right: 4rem;
+    margin-bottom: 0;
+    align-items: flex-start;
+    width: 50%;
+    text-align: left;
+  }
+  @media (min-width: 1024px) {
+    padding-right: 6rem;
+    flex-grow: 1;
+  }
+}
+
+.about-text-header {
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+
+  @media (min-width: 640px) {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+.about-text-detail {
+  margin-bottom: 2rem;
+  line-height: 1.625;
+}
+
+.image-container {
+  width: 83.333333%;
+
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+  @media (min-width: 1024px) {
+    width: 100%;
+    max-width: 32rem;
+  }
+}
+
+.image-container-img {
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}

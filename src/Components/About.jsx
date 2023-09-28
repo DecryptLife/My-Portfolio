@@ -2,34 +2,18 @@ function About() {
   return (
     <>
       <section id="about">
-        <div className="section-container">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className=" sm:text-4xl mb-4 font-medium text-white">
-              Hi, I'm Benson.
-            </h1>
-            <p className="mb-8 leading-relaxed">
+        <div className="container">
+          <div className="about-text-container">
+            <h1 className=" about-text-header">Hi, I'm Benson.</h1>
+            <p className="about-text-detail">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
               laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
               Laborum, voluptas natus?
             </p>
-            {/* <div className="flex justify-center">
-              <a
-                href="#"
-                className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
-              >
-                Resume
-              </a>
-              <a
-                href="#"
-                className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
-              >
-                Work Experience
-              </a>
-            </div> */}
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <div className="image-container">
             <img
-              className="object-cover object-center rounded"
+              className="image-container-img"
               alt="profile picture"
               src="./headshot.jpg"
             />

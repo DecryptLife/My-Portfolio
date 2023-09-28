@@ -1,5 +1,3 @@
-import { ArrowRightIcon } from "@heroicons/react/solid";
-
 function Navbar() {
   return (
     <header className="navbar">
@@ -8,10 +6,10 @@ function Navbar() {
           Benson Thomas
         </a>
         <nav className="nav_sections">
-          <a href="#projects" className="mr-5 hover:text-white">
+          <a href="#projects" className="nav_links">
             Projects
           </a>
-          <a href="#skills" className="mr-5 hover:text-white">
+          <a href="#skills" className="nav_links">
             Skills
           </a>
         </nav>
