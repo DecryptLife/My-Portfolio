@@ -1,7 +1,7 @@
 function Experience() {
   return (
     <section id="experience">
-      <h2>My Work Experi</h2>
+      <h2>My Work Experience</h2>
     </section>
   );
 }

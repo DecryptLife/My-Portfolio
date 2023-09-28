@@ -11,6 +11,10 @@
 main {
   color: var(--secondarycolor);
   background-color: var(--primarycolor);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-container {
@@ -21,14 +25,35 @@ main {
 }
 
 /*  header components */
+.header-container {
+  display: flex;
+  padding: 1.25rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
 .navbar {
   top: 0;
   z-index: 10;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  background-color: rgb(31 41 55);
   display: flex;
-  background-color: var(--primarycolor);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   @media (min-width: 768px) {
     position: sticky;
   }
+}
+
+.child1 {
+  display: flex;
 }
 .nav_sections {
   display: flex;
@@ -60,7 +85,7 @@ main {
   padding: 1.25rem;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   /* mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center */
   @media (min-width: 768px) {
     flex-direction: row;
@@ -248,7 +273,7 @@ main {
 }
 
 /* skills container */
-.skills-container {
+.section-container {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
   padding-top: 2.5rem;
@@ -258,4 +283,48 @@ main {
 .section-header {
   margin-bottom: 5rem;
   text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  flex-wrap: wrap;
+
+  @media (min-width: 640px) {
+    margin-bottom: 0.5rem;
+  }
+
+  @media (min-width: 1024px) {
+    width: 80%;
+  }
+}
+
+.skill-layout {
+  padding: 0.5rem;
+
+  @media (min-width: 640px) {
+    width: 50%;
+  }
+}
+
+.skill-component {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 0.25rem;
+  height: 100%;
+  background-color: #1f2937;
+}
+
+.badge-icon {
+  margin-right: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #34d399;
+}
+
+.skill_name {
+  font-weight: 500;
+  color: #ffffff;
 }
