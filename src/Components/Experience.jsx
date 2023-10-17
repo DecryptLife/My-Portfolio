@@ -25,7 +25,26 @@ function Experience() {
 
         <div className="resume-container">
           <div className="resume-wrapper">
-            <div className="resume-card"></div>
+            <div className="resume-card">
+              <div className="work-exp affekta">
+                <div className="work-exp-header">
+                  <h2>Affekta</h2>
+                </div>
+                <div className="work-exp-body">
+                  <ul>
+                    <li>Worked as </li>
+                  </ul>
+                </div>
+              </div>
+              <br />
+              <br />
+              <div className="work-exp virtusa">
+                <div className="work-exp-header">
+                  <h2>Virtusa</h2>
+                </div>
+                <div className="work-exp-body"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
