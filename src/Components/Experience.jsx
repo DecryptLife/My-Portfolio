@@ -40,7 +40,11 @@ function Experience() {
                     <b>
                       <h2>Affekta</h2>
                     </b>
-                    <h6>Software Developer/ML Engineer Intern</h6>
+                    <p>
+                      Software Developer Intern
+                      <span style={{ marginRight: 100 }}></span>May 23 - Present
+                      <span className="work-exp-dates"></span>
+                    </p>
                   </div>
                 </div>
                 <div className="work-exp-body">
@@ -80,7 +84,10 @@ function Experience() {
                     <b>
                       <h2>Virtusa</h2>
                     </b>
-                    <h6>Associate Software Engineer</h6>
+                    <p>
+                      Associate Software Engineer
+                      <span style={{ marginRight: 100 }}></span>Nov 21 - Jun 22
+                    </p>
                   </div>
                 </div>
                 <div className="work-exp-body">

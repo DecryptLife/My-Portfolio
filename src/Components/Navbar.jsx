@@ -10,6 +10,9 @@ function Navbar() {
             <a href="#projects" className="nav_links">
               Projects
             </a>
+            <a href="#experience" className="nav_links">
+              Experience
+            </a>
             <a href="#skills" className="nav_links">
               Skills
             </a>

@@ -16,6 +16,9 @@
   height: 80px;
 }
 
+.work-exp-title {
+  padding: 10px;
+}
 .work-exp-icon > img {
   border-radius: 50%;
 }

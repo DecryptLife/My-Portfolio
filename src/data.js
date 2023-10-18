@@ -3,24 +3,16 @@ export const projects = [
     title: "Lively",
     subtitle: "MERN Stack",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Lively is a social media website that was created using the MERN stack. Implemented features like posting updates, following users, updating profiles, third party login, etc. \n Technologies used: HTML, CSS, React, MongoDB, Express, NodeJS, Cloudinary, PassportJS",
     image: "./project-1.gif",
     link: "https://reactbootcamp.com",
   },
   {
     title: "ReLearn",
-    subtitle: "React and Python",
+    subtitle: "MERN, Typescript, NextJS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "ReLearn is an e-learning platform that has two user-access: admin and user and each user-access provided with different functionalities. Initially created using MERN stack, re-based the code to use TypeScript and currently in the transition to NextJS",
     image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
     link: "https://reactbootcamp.com",
   },
 ];
