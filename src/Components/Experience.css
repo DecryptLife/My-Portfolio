@@ -1,5 +1,6 @@
 .resume-container {
   width: 100%;
+  margin-top: 20px;
 }
 
 .resume-card {
@@ -7,4 +8,22 @@
   display: flex;
   flex-direction: column;
   padding: 20px;
+  border-radius: 20px;
+}
+
+.work-exp-header {
+  display: flex;
+  height: 80px;
+}
+
+.work-exp-icon > img {
+  border-radius: 50%;
+}
+.custom-bullet {
+  list-style-type: none;
+}
+
+.custom-bullet li::before {
+  content: "\2022"; /* Add your custom bullet point symbol here */
+  margin-right: 8px; /* Adjust the spacing between the bullet point and the list item */
 }
