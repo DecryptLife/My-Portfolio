@@ -1,3 +1,3 @@
 function Socials() {
-  return <></>;
+  return <>These are my socials</>;
 }
