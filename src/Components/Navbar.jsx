@@ -8,22 +8,29 @@ function Navbar() {
           </a>
           <nav className="nav_sections">
             <a href="#projects" className="nav_links">
-              Projects
+              <b>Projects</b>
             </a>
             <a href="#experience" className="nav_links">
-              Experience
+              <b>Experience</b>
             </a>
             <a href="#skills" className="nav_links">
-              Skills
+              <b>Skills</b>
+            </a>
+            <a href="#contact" className="nav_links">
+              <b>Contact</b>
             </a>
           </nav>
         </div>
-        <a href="#resume" className="resume_btn">
+        <a href="#resume" className="resume_btn" onClick={() => showResume()}>
           Resume
         </a>
       </div>
     </header>
   );
+}
+
+function showResume() {
+  window.open("./Resume.pdf", "_blank");
 }
 
 export default Navbar;

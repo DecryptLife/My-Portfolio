@@ -364,3 +364,7 @@ main {
   font-weight: 500;
   color: #ffffff;
 }
+
+.contact-container {
+  display: flex;
+}
