@@ -2,21 +2,40 @@ function Contact() {
   return (
     <section id="contact" className="relative">
       <div className="container section-container">
+        <div className="section-header">
+          <h1 className="section-header-text">Way to Connect with Me</h1>
+        </div>
         <div className="contact-container">
-          <div>
+          <div className="contact-info">
             <p>
-              Thank you for your interest in going through my profile. Your
-              feedbacks, suggestions and questions are always welcome.If you
-              wish to reach out to me feel free to email me directly at
-              bt22@rice.edu
+              <b>
+                Thank you for your interest in going through my profile. Your
+                feedbacks, suggestions and questions are always welcome.If you
+                wish to reach out to me feel free to email me directly at <br />
+                <a href="mailto:bt22@rice.edu">bt22@rice.edu</a> I make an
+                effort to respond to all messages within 24 hours, although it
+                may take me longer during busy periods. Finally, if you prefer
+                to connect on social media, you can find me on . I post regular
+                updates and engage with my followers there, so don't hesitate to
+                reach out. Thanks again for your interest, and I look forward to
+                hearing from you!
+              </b>
             </p>
+
+            <div className="social-media-icons">
+              <a href="https://www.linkedin.com/in/benson-engineered/">
+                <img src="./linkedin.svg"></img>
+              </a>
+              <a href="https://github.com/DecryptLife">
+                <img src="./github.svg"></img>
+              </a>
+              <a href="mailto:bt22@rice.edu">
+                <img src="./gmail.svg"></img>
+              </a>
+            </div>
           </div>
-          <div>
-            <form
-              netlify
-              name="contact"
-              className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
-            >
+          {/* <div className="contact-form-layout">
+            <form netlify name="contact" className="contact-form">
               <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
                 Hire Me
               </h2>
@@ -74,7 +93,7 @@ function Contact() {
                 Submit
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

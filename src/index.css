@@ -73,7 +73,7 @@ main {
 }
 
 .navbar .resume_btn {
-  background-color: #16a340;
+  background-color: #34d399;
   color: var(--whitecolor);
   padding: 8px;
   font-size: large;
@@ -367,4 +367,36 @@ main {
 
 .contact-container {
   display: flex;
+}
+
+.contact-info {
+  width: 100%;
+}
+
+.contact-form-layout {
+  width: 40%;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    padding-bottom: 2rem;
+    margin-top: 0;
+    width: 50%;
+  }
+  @media (min-width: 1024px) {
+    width: 33.333333%;
+  }
+}
+
+.social-media-icons {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.social-media-icons img {
+  margin: 1rem;
 }

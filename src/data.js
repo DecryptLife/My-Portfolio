@@ -15,6 +15,22 @@ export const projects = [
     image: "./project-2.gif",
     link: "https://reactbootcamp.com",
   },
+  {
+    title: "Fine Tuning Text-to-Image Diffusion Models with Style Transfer",
+    subtitle: "Deep Learning, Pytorch, Jupyter Notebook",
+    description:
+      "Using DreamBooth, a state-of-the-art text-to-image synthesis model we are fine tuning the model on both the subject(human model) and object (piece of clothing) to generate images that look like a real photoshoot.",
+    image: "./project-2.gif",
+    link: "https://reactbootcamp.com",
+  },
+  {
+    title: "Predict Movie Performance based on Social Media Response",
+    subtitle: "Machine Learning, Keras, Colab ",
+    description:
+      "Conducted data driven research to correlate social media engagement with a movie's Youtube trailer to the performance. Compared multiple machine learning algorithms to quantitatevely assess and measure social media responses to movie trailers. ",
+    image: "./project-2.gif",
+    link: "https://reactbootcamp.com",
+  },
 ];
 
 export const skills = [
