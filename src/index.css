@@ -211,19 +211,22 @@ main {
   display: flex;
   margin: -1rem;
   flex-wrap: wrap;
+  height: 100%;
 }
 
 .project-group {
   padding: 1rem;
-
+  height: 300px;
   @media (min-width: 640px) {
     width: 50%;
+    height: 500px;
   }
 }
 
 .project-individual {
   display: flex;
   position: relative;
+  height: 100%;
 }
 
 .project-image {
@@ -248,7 +251,7 @@ main {
   border-width: 4px;
   border-color: #1f2937;
   width: 100%;
-  height: 200%;
+  height: 100%;
   background-color: var(--primarycolor);
   opacity: 0;
 }

@@ -3,7 +3,7 @@ function Contact() {
     <section id="contact" className="relative">
       <div className="container section-container">
         <div className="section-header">
-          <h1 className="section-header-text">Way to Connect with Me</h1>
+          <h1 className="section-header-text">Ways to Connect with Me</h1>
         </div>
         <div className="contact-container">
           <div className="contact-info">

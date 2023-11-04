@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "MERN, Typescript, NextJS",
     description:
       "ReLearn is an e-learning platform that has two user-access: admin and user and each user-access provided with different functionalities. Initially created using MERN stack, re-based the code to use TypeScript and currently in the transition to NextJS",
-    image: "./project-2.gif",
+    image: "./relearn.gif",
     link: "https://reactbootcamp.com",
   },
   {
